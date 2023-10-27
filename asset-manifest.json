@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/intro_webside-ver2./static/css/main.916b19e1.css",
+    "main.js": "/intro_webside-ver2./static/js/main.8da79657.js",
+    "static/media/basketball1.png": "/intro_webside-ver2./static/media/basketball1.917c53c9183880f3e631.png",
+    "static/media/guitar1.png": "/intro_webside-ver2./static/media/guitar1.145a7490dd8de7fc846d.png",
+    "static/media/guitar.png": "/intro_webside-ver2./static/media/guitar.81ef777dfd5c76f510a2.png",
+    "static/media/basketball.png": "/intro_webside-ver2./static/media/basketball.88475560020369532c33.png",
+    "static/media/skateboard.png": "/intro_webside-ver2./static/media/skateboard.a459d87ae99cc6ef5c33.png",
+    "static/media/pic3.png": "/intro_webside-ver2./static/media/pic3.447bcb25dcb23e854d24.png",
+    "static/media/skateboard1.JPG": "/intro_webside-ver2./static/media/skateboard1.bc0ddcd3413277efa18e.JPG",
+    "static/media/pic2.png": "/intro_webside-ver2./static/media/pic2.6a13bf8485a05a07b508.png",
+    "static/media/pic1.png": "/intro_webside-ver2./static/media/pic1.1cbe9c73986893172572.png",
+    "static/media/entp.png": "/intro_webside-ver2./static/media/entp.b207b355e8db31f6ff72.png",
+    "static/media/infj.png": "/intro_webside-ver2./static/media/infj.ce674f20d64a5d5ffe43.png",
+    "static/media/road.svg": "/intro_webside-ver2./static/media/road.359fd933c29f93d3c8ce876f675e1f92.svg",
+    "index.html": "/intro_webside-ver2./index.html",
+    "main.916b19e1.css.map": "/intro_webside-ver2./static/css/main.916b19e1.css.map",
+    "main.8da79657.js.map": "/intro_webside-ver2./static/js/main.8da79657.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.916b19e1.css",
+    "static/js/main.8da79657.js"
+  ]
+}
