@@ -1,0 +1,60 @@
+.card {
+  position: relative;
+  width: 20vw;
+  height: 30vh;
+  transform-style: preserve-3d;
+  transform: scaleY(4);
+}
+
+.card_afin {
+  animation: rotate 3s linear 1 forwards;
+
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  /* background: url('../00_Asset/1.jpg'); */
+  background-size: cover;
+  /* background-color: aqua; */
+}
+
+.back {
+  /* background: url('../00_Asset/2.jpg'); */
+  background-size: cover;
+  background-color: blue;
+  transform: rotateY(180deg);
+}
+
+/* .card::before,
+.card::after {
+  content: "";
+  position: absolute;
+  width: 800px;
+  height: 300px;
+  background-color: red;
+}
+
+.card::before {
+  transform: rotateY(90deg) translateX(-100px);
+}
+
+.card::after {
+  transform: rotateY(-90deg) translateX(100px);
+} */
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(0deg) scaleY(4);
+  }
+
+  100% {
+    transform: rotateY(180deg) scaleY(4);
+  }
+}

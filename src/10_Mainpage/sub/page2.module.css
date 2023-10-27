@@ -1,0 +1,196 @@
+.page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.container1 {
+  width: 30%;
+  margin: 0 2vw;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  z-index: 2;
+}
+
+.container2 {
+  width: 40vw;
+  margin: 4vh 2vw 0vh 2vw;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  z-index: 2;
+  border-top: 1px solid rgb(128, 46, 29);
+
+
+
+
+
+}
+
+
+
+
+.svg1 {
+  width: 1vw;
+  margin-right: 0.5vw;
+}
+
+
+.pic3 {
+  width: 20.3vw;
+  margin: 2vh 0 0 2vw;
+}
+
+
+
+.pic4 {
+  background-color: rgb(128, 46, 29);
+  width: 5vw;
+  height: 5vw;
+  margin: 2vh 0;
+}
+
+.pic5 {
+  background-color: #896831;
+  width: 5vw;
+  height: 5vw;
+  margin: 2vh 0;
+}
+
+.pic6 {
+  background-color: rgb(107, 157, 154);
+  width: 5vw;
+  height: 5vw;
+  margin: 2vh 0;
+}
+
+.pic4,
+.pic5,
+.pic6 {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.pic4.show,
+.pic5.show,
+.pic6.show {
+  opacity: 1;
+}
+
+.container1_2,
+.container2 {
+  opacity: 0;
+  transition: opacity 2s ease-in;
+}
+
+.container1_2.show,
+.container2.show {
+  opacity: 1;
+
+}
+
+
+.container1_1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container2_1 {
+  display: flex;
+  flex-direction: column;
+  padding: 4vh;
+  width: 35vw;
+}
+
+.name {
+  color: rgb(128, 46, 29);
+  font-size: 2vw;
+  letter-spacing: 0.5vw;
+
+}
+
+.name::after {
+  color: rgb(128, 46, 29);
+  font-size: 1vw;
+  content: "        Loti";
+  letter-spacing: 1vw;
+}
+
+.countrybox {
+  display: flex;
+  margin-top: 2vh;
+}
+
+.school {
+  margin-left: 1vw;
+}
+
+.country {
+  margin-right: 0.2vw;
+}
+
+.country,
+.school {
+  font-size: 1vw;
+  color: #896831;
+}
+
+.librabox {
+  margin-top: 2vh;
+  display: flex;
+
+
+
+}
+
+.libra {
+  color: #896831;
+  font-size: 1vw;
+
+
+}
+
+
+
+.container2_3 {
+  border-bottom: 1px solid rgb(128, 46, 29);
+  border-top: 1px solid rgb(128, 46, 29);
+  display: flex;
+  justify-content: center;
+  width: 40vw;
+  overflow: hidden;
+}
+
+.pic7,
+.pic8 {
+  width: 19vw;
+}
+
+.p5 {
+  position: absolute;
+  z-index: 1;
+  color: rgb(203, 197, 201);
+  top: -5vh;
+  left: 4vw;
+  font-size: 50vw;
+  transition-property: top, left, font-size;
+
+  transition-duration: 1.5s;
+  transition-timing-function: ease;
+
+
+}
+
+
+
+
+.p5.show {
+
+  top: 20vh;
+  left: 68vw;
+  font-size: 10vw;
+
+}

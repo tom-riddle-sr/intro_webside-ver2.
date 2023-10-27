@@ -1,0 +1,27 @@
+.stroke {
+  stroke-dashoffset: 200;
+  /* 推移線段 */
+  stroke-dasharray: 200;
+  /* 有颜色的线的长度 */
+  position: absolute;
+  top: -60vh;
+  left: -107vw;
+}
+
+.ani {
+  animation: circle-draw 10s linear infinite forwards;
+}
+
+@keyframes circle-draw {
+  0% {
+    stroke-dashoffset: 0;
+  }
+
+
+
+  100% {
+    stroke-dashoffset: 1000;
+  }
+
+
+}

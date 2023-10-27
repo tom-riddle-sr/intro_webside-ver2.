@@ -1,0 +1,77 @@
+.page1 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.title {
+  top: 22vh;
+  z-index: 3;
+  width: 70vw;
+  position: relative;
+}
+
+.p1 {
+  position: absolute;
+  font-size: 20vw;
+  color: black;
+  color: rgb(203, 197, 201);
+
+
+
+}
+
+
+.p2 {
+  position: absolute;
+  color: rgb(107, 157, 154);
+  top: 59vh;
+  z-index: 3;
+  left: 45vw;
+  font-size: 10vw;
+  letter-spacing: 2vw;
+}
+
+.p2::after {
+  content: "です。";
+  color: #896831;
+  font-size: 5vw;
+  letter-spacing: 0vw;
+
+}
+
+.pic1 {
+  position: absolute;
+  width: 25vw;
+  bottom: -24vh;
+  left: -2vw;
+  z-index: 4;
+  transform: rotate(10deg);
+
+}
+
+.pic2 {
+  position: absolute;
+  width: 20vw;
+  right: 5vw;
+  top: -15vh;
+  z-index: 0;
+  transform: rotate(270deg);
+
+
+}
+
+.circle {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50px;
+  background-color: rgb(128, 46, 29);
+  position: absolute;
+  top: 5.5vh;
+  right: 51.2vw;
+  z-index: 2;
+
+}

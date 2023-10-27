@@ -1,0 +1,31 @@
+.ball1 {
+  position: absolute;
+  border-radius: 50%;
+  animation: moveUpDown 1s ease-in-out infinite alternate;
+}
+
+.ball2 {
+  position: absolute;
+  border-radius: 50%;
+  animation: moveLeftRight 1s ease-in-out infinite alternate;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-2vh);
+  }
+}
+
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-5vh);
+  }
+}

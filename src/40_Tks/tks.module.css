@@ -1,0 +1,31 @@
+.tks {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.p {
+  color: rgb(203, 197, 201);
+  font-size: 30vw;
+  position: absolute;
+  top: 15vh;
+  left: 20vw;
+}
+
+.p.dd {
+  animation: cc 1s linear forwards;
+
+}
+
+@keyframes cc {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
