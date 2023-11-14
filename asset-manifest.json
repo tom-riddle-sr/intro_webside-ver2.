@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/intro_webside-ver2./static/css/main.10656b2d.css",
-    "main.js": "/intro_webside-ver2./static/js/main.8da79657.js",
+    "main.css": "/intro_webside-ver2./static/css/main.7cdbfd88.css",
+    "main.js": "/intro_webside-ver2./static/js/main.4bc0ff86.js",
     "static/media/basketball1.png": "/intro_webside-ver2./static/media/basketball1.917c53c9183880f3e631.png",
     "static/media/guitar1.png": "/intro_webside-ver2./static/media/guitar1.145a7490dd8de7fc846d.png",
     "static/media/guitar.png": "/intro_webside-ver2./static/media/guitar.81ef777dfd5c76f510a2.png",
@@ -15,11 +15,11 @@
     "static/media/infj.png": "/intro_webside-ver2./static/media/infj.ce674f20d64a5d5ffe43.png",
     "static/media/road.svg": "/intro_webside-ver2./static/media/road.359fd933c29f93d3c8ce876f675e1f92.svg",
     "index.html": "/intro_webside-ver2./index.html",
-    "main.10656b2d.css.map": "/intro_webside-ver2./static/css/main.10656b2d.css.map",
-    "main.8da79657.js.map": "/intro_webside-ver2./static/js/main.8da79657.js.map"
+    "main.7cdbfd88.css.map": "/intro_webside-ver2./static/css/main.7cdbfd88.css.map",
+    "main.4bc0ff86.js.map": "/intro_webside-ver2./static/js/main.4bc0ff86.js.map"
   },
   "entrypoints": [
-    "static/css/main.10656b2d.css",
-    "static/js/main.8da79657.js"
+    "static/css/main.7cdbfd88.css",
+    "static/js/main.4bc0ff86.js"
   ]
 }
