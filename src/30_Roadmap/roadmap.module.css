@@ -138,8 +138,7 @@
   left: 0vw;
   position: absolute;
   background-color: aqua;
-  /* offset-path: path("M151 213C151 213 238.4 86.4 354 201 469.6 316.6 523.9 311 594 246 664.1 181 721.9 111.8 824 52 926.1 12.8 955.5 54.4 1086 78 1108.1 96.8 1180.9 221.1 1287 242 1336.4 298.8 1333 293 1333 293L1336 632 1306 886 558 859 77 808 2 757z");
-  animation: move 10s linear infinite alternate; */
+
 }
 
 @keyframes move {
