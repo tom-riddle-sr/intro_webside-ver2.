@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/intro_webside-ver2./static/css/main.d6413fa6.css",
+    "main.css": "/intro_webside-ver2./static/css/main.e1812dd0.css",
     "main.js": "/intro_webside-ver2./static/js/main.8a36e0d8.js",
     "static/media/basketball1.png": "/intro_webside-ver2./static/media/basketball1.917c53c9183880f3e631.png",
     "static/media/guitar1.png": "/intro_webside-ver2./static/media/guitar1.145a7490dd8de7fc846d.png",
@@ -15,11 +15,11 @@
     "static/media/infj.png": "/intro_webside-ver2./static/media/infj.ce674f20d64a5d5ffe43.png",
     "static/media/road.svg": "/intro_webside-ver2./static/media/road.359fd933c29f93d3c8ce876f675e1f92.svg",
     "index.html": "/intro_webside-ver2./index.html",
-    "main.d6413fa6.css.map": "/intro_webside-ver2./static/css/main.d6413fa6.css.map",
+    "main.e1812dd0.css.map": "/intro_webside-ver2./static/css/main.e1812dd0.css.map",
     "main.8a36e0d8.js.map": "/intro_webside-ver2./static/js/main.8a36e0d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6413fa6.css",
+    "static/css/main.e1812dd0.css",
     "static/js/main.8a36e0d8.js"
   ]
 }
